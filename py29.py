@@ -1,0 +1,5 @@
+frase = str(input('Escreva uma frase:')).upper().strip()
+print("Quantidade de 'A' na frase:",frase.count('A'))
+print('Primeiro a da frase se encontra na letra:',frase.find('A'))
+print("Ultima ocorrencia de 'A'",frase.rfind('A'))
+print(len(frase))

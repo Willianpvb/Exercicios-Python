@@ -1,0 +1,12 @@
+frase = '       wisky com agua de coco   '
+print(frase[3:23:2])
+print(frase[:12])
+print(frase[::2])
+print("""Para texto grandes""")
+print(frase.upper())
+print(frase.upper().count('C'))
+print(len(frase))
+print(frase.strip())
+print(frase.replace('wisky','suco de limão'))
+print('agua' in frase)
+print(frase.find('agua'))

@@ -1,0 +1,5 @@
+nome = input("What´s your full name?").strip()
+print(nome.upper())
+print(nome.lower())
+print('Quantidade de letras no seu nome:',len(nome)-nome.count(" "))
+print("Your first name is {} and it has {} letters".format(nome[:nome.find(' ')],nome.find(' ')))

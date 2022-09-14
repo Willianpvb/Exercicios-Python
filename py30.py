@@ -1,0 +1,6 @@
+nome = str(input('Digite seu nome completo:'))
+print(nome)
+nome = nome.split()
+print(nome)
+print("Olá {} como vai?".format(nome[0]))
+print("{},Esse é seu ultimo nome?".format(nome[len(nome)-1]))
